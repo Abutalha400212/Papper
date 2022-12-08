@@ -1,0 +1,41 @@
+[
+    {
+        "name":"iPhone 14",
+        "price":"230",
+        "release":"17 may 2021",
+        "software":"OS/ Android 13, Realme UI 4.0.",
+        "img":"https://i.ibb.co/jGNwZ14/apple.png",
+        "body":"161.5x73.9x7.8mm, 173g; glass front, plastic frame, plastic back.",
+        "display":"6.70 AMOLED, 1B colors, HDR10+, 120Hz, 800 nits, 1080x2412px resolution, 20.1:9 aspect ratio, 394ppi",
+        "chipset":"MediaTek Dimensity 1080 (6 nm): Octa-core (2x2.6 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55); Mali-G68 MC4.",
+        "memory":"128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM. OS/Software: Android 13, Realme UI 4.0.",
+        "rear-camera":"Wide (main): 108 MP, f/1.8, 24mm, 1/1.67, 0.64µm, PDAF; Ultra wide angle: 8 MP, f/2.2, 16mm, 112˚; Macro: 2 MP, f/2.4.",
+        "misc":"67W SuperVOOC charging, PD3.0, 50% in 17 min (advertised). Fingerprint reader (under display, optical); NFC; stereo speakers.",
+        "battery":"5000mAh"
+    },
+    {
+        "name":"Airpod Pro",
+        "price":"130",
+        "img":"https://i.ibb.co/WykSVjm/airpod.jpg"
+    },
+    {
+        "name":"iPad pro",
+        "price":"830",
+        "img":"https://i.ibb.co/ZKtscRg/ipad.webp"
+    },
+    {
+        "name":"Smart Watch ",
+        "price":"130",
+        "img":"https://i.ibb.co/PxG31ft/watch.jpg"
+    },
+    {
+        "name":"Apple TV 4K",
+        "price":"930",
+        "img":"https://i.ibb.co/GpRqXpc/tv.png"
+    }
+  
+]
+
+
+
+
