@@ -4,7 +4,7 @@ const ProductCart = () => {
   const { img, name, price, _id, quantity } = useLoaderData();
   const [count, setCount] = useState(quantity);
   useEffect(() => {
-    fetch(`http://localhost:5000/products/${_id}`, {
+    fetch(`https://sample-apple-server.vercel.app/products/${_id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -47,12 +47,6 @@ const ProductCart = () => {
               </div>
               <div className="flex flex-col ml-4">
                 <span className="font-bold text-sm">{name}</span>
-                <a
-                  href="/"
-                  className="font-semibold hover:text-red-500 text-gray-500 text-xs"
-                >
-                  Remove
-                </a>
               </div>
             </div>
             <div className="flex justify-center w-1/5">
