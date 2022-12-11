@@ -1,46 +1,30 @@
-import React from "react";
-import { useLoaderData } from "react-router-dom";
+import { ChevronRightIcon } from '@heroicons/react/24/solid';
+import React from 'react';
+import { Link, useLoaderData } from 'react-router-dom';
 
-const ProductDetails = () => {
-  const data = useLoaderData();
-  const {
-    body,
-    display,
-    chipset,
-    memory,
-    misc,
-    battery,
-    software,
-    name,
-    price,
-    release,
-  } = data;
-  return (
-    <div className="hero min-h-screen bg-base-200">
-      <div
-        className="hero-content flex-col lg:flex-row gap-3"
-      >
-        <img
-          src="https://i.ibb.co/jGNwZ14/apple.png
-"
-          className=" rounded-lg shadow-2xl"
-          alt=""
-        />
-        <div
-          className="p-4"
+const CategoryWiseData = () => {
+    const {bg,img,name,price,_id,display,chipset,memory,software,battery,misc,body} = useLoaderData()
+    return (
+        <div className=''>
+        <div className={`min-h-screen mt-10 mx-auto text-center flex flex-col gap-3 p-5 ${bg}`
+    }>
+      <h1 className="text-6xl font-bold font-sans">{name}</h1>
+      <p className="text-3xl font-mono">Big and Bigger</p>
+      <p className="text-3xl font-mono">${price}</p>
+      <div className="flex justify-center items-center text-blue-800 font-serif">
+        <Link
+        to={`/cart/${_id}`}
+          className="cursor-pointer link-hover text-xl ml-2"
         >
-          <h1 className="text-4xl font-bold">
-            {name}{" "}
-            <span className="text-xl text-blue-800 font-semibold font-mono">
-              ({release})
-            </span>{" "}
-          </h1>
-          <p className="text-green-700 text-xl font-mono">
-            <span className="font-bold">Price: </span>
-            {price} $
-          </p>
-          <div className="divider m-0"></div>
-          <div>
+          Buy
+          <ChevronRightIcon className="w-4 inline " />
+        </Link>
+      </div>
+      <figure className="flex justify-center">
+        <img src={img} alt="" width={500} />
+      </figure>
+      </div>
+      <div className='md:w-9/12 md:mx-auto mx-4 my-5  ' >
             <h1 className="text-lg font-bold underline font-mono">
               Product Details
             </h1>
@@ -73,10 +57,9 @@ const ProductDetails = () => {
               </li>
             </ul>
           </div>
-        </div>
-      </div>
+    
     </div>
-  );
+    );
 };
 
-export default ProductDetails;
+export default CategoryWiseData;

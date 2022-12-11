@@ -1,5 +1,6 @@
 import ProductCart from "../Components/Shared/ProductCart/ProductCart";
 import ProductDetails from "../Components/Shared/ProductDetails/ProductDetails";
+import CategoryWiseData from "../pages/Home/Category/CategoryWiseData";
 import Home from "../pages/Home/Home/Home";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -15,13 +16,20 @@ export const router = createBrowserRouter([
                 element:<Home/>
             },
             {
-                path:'/detail',
+                path:'/details/:id',
+                loader:({params})=>fetch(`http://localhost:5000/products/${params.id}`),
                 element:<ProductDetails/>
             },
             {
-                path:'/cart',
+                path:'/cart/:id',
+                loader:({params})=>fetch(`http://localhost:5000/products/${params.id}`),
                 element:<ProductCart/>
             },
+            {
+                path:'/category/:id',
+                loader:({params})=>fetch(`http://localhost:5000/products/${params.id}`),
+                element:<CategoryWiseData/>
+            }
         ]
     }
 ])
