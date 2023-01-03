@@ -3,7 +3,7 @@ import React from 'react';
 const ManageTruckProject = () => {
     return (
         <div className='flex flex-col md:flex-row justify-center gap-10 items-center'>
-            <div className='w-96'>
+            <div className='w-96' data-aos="fade-up-right">
                 <img src="https://s3-alpha-sig.figma.com/img/3071/6b9f/216923cc891f86eea295e26f73810ffd?Expires=1673827200&Signature=JRAzx-2D5Btxe-NrgrVu5yMckRnr0lHzP2KPe5w2DLBeo24TkdVG0iHr9JLTNLj2bnp3Nrtb1oAZ0HlFa0PhKSufVskyjNWJCe9V4WlPV1k6JIO2cOwmcNnEZIKbpc6ZkvlU31kpbtRPQCDTFJIbjCv1TXre~uOQg2K4cSMS6K2Odn0tWk6bMILrFWJHvpFYq8j0x9mQ1RPmRyU3K-J3mETyS6zMGp0MENF51nlQ6ZCK5SDz5C48bdxwRfzgI0IOp5n8g2-4wKQbzxmEw5pvytiowDgcGEvWp-W1Ya2ISr5DDzec4iu7E42yBFOCvqTw2XQy7U44ScyS~tHCa34m7g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
             </div>
             <div className=''>

@@ -32,7 +32,7 @@ const ManageTeamTask = () => {
             </ul>
            
         </div>
-        <div className='w-96'>
+        <div className='w-96' data-aos="fade-up-left">
             <img src="https://s3-alpha-sig.figma.com/img/5a30/fa98/34e64b25063f5a58d4ce6378e5966708?Expires=1673827200&Signature=SF41ENdqtJXN0NWbtABe6nxSqz-s~jfz6-7wo07vBxjAj5oOnSOSwLtixc218FkerLX3tQvqc960mzuEbUKj1qHLzqRlAJ7ee15WrJ7kO8t4C1xalOgPOPMTIIt0S8sERg0mrZuzG2JBbOgo91F2ThP489~hILUCww2ts1InRBh3SnyUEi8twTIHco5kRVs0cKA6~7bV-PddHYam08d4Eud2jxKbftnio1nEdtd9pUfsQKf3ev5xKJedwlpbxlRsyW9YS9WXb5Em~H31tMohcZOXb67SQmE5q4UAcaeBB32HDD1wm7qhqENi4GCaQ33SiiMRnSAClOAm2djgKZCWzA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
         </div>
     </div>

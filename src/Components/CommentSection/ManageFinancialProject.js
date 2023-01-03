@@ -3,7 +3,7 @@ import React from 'react';
 const ManageFinancialProject = () => {
     return (
         <div className='flex flex-col md:flex-row justify-center gap-10 items-center'>
-        <div className='w-96'>
+        <div className='w-96'data-aos="fade-up-right">
             <img src="https://s3-alpha-sig.figma.com/img/2254/beae/d50812f02ae1f995df45241d209daf36?Expires=1673827200&Signature=U9Oa8MH7iWt8T-iFKoW33OkLjBanuil-ihKKThbQ8qKkTVQKUuuRRvJ9jGZKj5aqsKuJ~~IdDKuqCJHBzH~ijpT8Yx6uuqdygmlZ~wuzny2xTO83MtwxHB7Or2yupFqn1KGRofByPcAfIuJAnoFpbzVYVkDctlPet6fCTs1Et2MBltSRE3691wLwrApEAmfSM~-dtC3s4PaI1pGD7UW6wi85Ve3Nx3dk9~lNiFrz3ADvU6ucAlO~Eunia1b0GzfZ4bUPIdPuqbGScdRktNCiiflEPztQTXDVcD9AOTXWivKPU3dpvjlM2tqvrPeFzqLW1Ub0JZKn9SMQtaVLfaa9~Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
         </div>
         <div className=''>

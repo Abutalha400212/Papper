@@ -2,7 +2,7 @@ import React from 'react';
 
 const BoxSection = () => {
     return (
-        <div className='grid justify-items-center mb-5'>
+        <div className='grid justify-items-center mb-5'data-aos="zoom-in">
             <div className=' md:w-[650px] w-[100%] md:h-[350px]  bg-[#151531] text-white relative rounded-2xl grid justify-items-center'>
 <div className='mt-10 '>
 <h1 className=' text-center text-4xl font-bold max-w-sm mx-auto '>A nice and simple financial overview</h1>
