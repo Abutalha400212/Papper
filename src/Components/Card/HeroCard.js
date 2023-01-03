@@ -3,7 +3,7 @@ import React from 'react';
 const HeroCard = ({card}) => {
     const {img,title} = card
     return (
-        <div className='p-4 md:w-80 h-60 shadow-inner rounded-xl hover:shadow-md' data-aos="lg:zoom-out-up">
+        <div className='p-4 md:w-80 h-60 shadow-inner rounded-xl hover:shadow-md' data-aos="zoom-out-up">
             <button className='w-8 h-8 rounded-lg  btn-primary mb-10'>
             {img}
             </button>
